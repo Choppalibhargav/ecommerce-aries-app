@@ -1,0 +1,45 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --red: #fc0000;
+}
+.search-bar input {
+    width: 25rem;
+    padding: 0.5rem 0.5rem;
+}
+#header {
+    background-color: var(--white);
+    color: var(--black) ;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 10rem;
+    height: 2rem;
+}
+.navbar-menu a{
+    margin: 0 10px;
+}
+.red{
+    color: var(--red) ;
+}
+.navbar-header{
+    font-size: 1.3rem;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    letter-spacing: 5px;
+}
+.icon-name{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: center;
+}
